@@ -23,7 +23,7 @@ def main():
 
   # conexion a la base de datos
   conn = sqlite3.connect(
-      "censo-db")  # si no se tiene la base de datos, se crea
+      "censo.db")  # si no se tiene la base de datos, se crea
   c = conn.cursor()  # se crea un cursor para ejecutar las sentencias SQL
 
   # Se crea una tabla si no existe
